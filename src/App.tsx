@@ -91,7 +91,7 @@ function App() {
       postUserData()
        event.preventDefault();
        fetch(
-          "https://quiz-app-authentication-bee15-default-rtdb.firebaseio.com/userDataRecords.json",
+          "https://authentication-85413-default-rtdb.firebaseio.com/userDataRecords.json",
        {
           method: "POST",
           headers: {
